@@ -2,8 +2,8 @@
 分布式，多账号，多任务购票
 
 ## 前言
-今年回家的票明显要难买很多，早早就答应了父母今年的票没问题，到现在一张票没买到，虽然家里已经订了汽车票，让我不用操心，但是想想他们一行还有小孩，心还是很伤的。
-这段时间从 12306Bypass 到 testerSunshine 大佬写的 [12306](https://github.com/testerSunshine/12306)，还是没买到票，索性就自己写了一个，希望也能帮助到更多人
+forked，后续尝试制作exe。
+Power by testerSunshine 大佬写的 [12306](https://github.com/testerSunshine/12306)
 
 ## Features
 - [x] 多日期查询余票
@@ -25,7 +25,7 @@ py12306 需要运行在 python 3.6 以上版本（其它版本暂未测试)
 
 **1. 安装依赖**
 ```bash
-git clone https://github.com/pjialin/py12306
+git clone https://github.com/junnyhaha/py12306
 
 pip install -r requirements.txt
 ```
@@ -148,7 +148,7 @@ docker-compose up -d
 ### 关于防封
 目前查询和登录操作是分开的，查询是不依赖用户是否登录，放在 A 云 T 云容易被限制 ip，建议在其它网络环境下运行
 
-交流群 [274781597](http://shang.qq.com/wpa/qunwpa?idkey=8eab0b6402096266a62263c1cd452149926adb5cba7a2b7a98a5adc65869addf)
+交流群 [0000000](http://shang.qq.com/wpa/qunwpa?idkey=)
 
 ### Online IDE
 [![在 Gitpod 中打开](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/pjialin/py12306)
